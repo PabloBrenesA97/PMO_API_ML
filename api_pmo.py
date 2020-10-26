@@ -5,10 +5,13 @@
 from flask import Flask, request
 import pandas as pd
 import numpy as np
-import joblib
+from pycaret.classification import load_model, predict_model
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Flask app
 app = Flask(__name__)
+# Charge model
+et_model = load_model('et_model') 
 # Global dataset
 df = pd.read_csv('final_df.csv')
 
@@ -28,14 +31,8 @@ def predict_estimation_future():
   # Get table with NLP
   input_df = transform_data(name, hours)
 
-  # Import library
-  from pycaret.classification import load_model, predict_model
-
-  # Charge model
-  model = load_model('et_model_pmo_v1') 
-
   # Predict
-  predictions_df = predict_model(estimator=model, data=input_df)
+  predictions_df = predict_model(estimator=et_model, data=input_df)
 
   return {'label': predictions_df['Label'][0], 'score': predictions_df['Score'][0]}
 
@@ -43,8 +40,6 @@ def transform_data(name, hours):
   """ 
     Method to build a new input_df with NLP table included into dataframe.
   """
-  # Import 
-  from sklearn.feature_extraction.text import TfidfVectorizer
 
   ## Add new line 
   new_row = {'name': name, 'hours': hours}
@@ -67,4 +62,4 @@ def transform_data(name, hours):
 
 
 if __name__ == '__main__':
-  app.run()
+  app.run(debug=True, host='0.0.0.0')
