@@ -21,6 +21,19 @@ def welcome():
 
 @app.route('/predict_file', methods=["POST"])
 def predict_batch_estimation_future():
+  """ 
+    Method to predict estimation (by csv file).
+    ---
+    parameters:
+      - name: file
+        in: formData
+        type: file
+        required: true
+
+    responses:
+      200:
+        data: The output values
+  """
   # Read csv from request
   data = pd.read_csv(request.files.get("file"))
   # Get table with NLP
@@ -33,7 +46,21 @@ def predict_batch_estimation_future():
 @app.route('/predict')
 def predict_estimation_future():
   """ 
-    Method to predict estimation
+    Method to predict estimation.
+    ---
+    parameters:
+      - name: name
+        in: query
+        type: string
+        required: true
+      - name: hours
+        in: query
+        type: int
+        required: true
+        
+    responses:
+      200:
+        data: The output values
   """
   # Request args
   name = str(request.args.get('name'))
@@ -50,6 +77,7 @@ def predict_estimation_future():
 def transform_data(name, hours):
   """ 
     Method to build a new input_df with NLP table included into dataframe.
+
   """
 
   ## Add new line 
