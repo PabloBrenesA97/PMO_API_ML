@@ -1,0 +1,851 @@
+2020-11-04 11:06:19,920:INFO:Initializing load_model()
+2020-11-04 11:06:19,920:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:06:48,696:INFO:Initializing load_model()
+2020-11-04 11:06:48,697:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:06:51,864:INFO:Initializing load_model()
+2020-11-04 11:06:51,865:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:15:34,214:INFO:Initializing load_model()
+2020-11-04 11:15:34,214:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:16:08,897:INFO:Initializing load_model()
+2020-11-04 11:16:08,897:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:17:39,831:INFO:Initializing load_model()
+2020-11-04 11:17:39,831:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:17:58,094:INFO:Initializing load_model()
+2020-11-04 11:17:58,094:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:18:01,064:INFO:Initializing load_model()
+2020-11-04 11:18:01,064:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:18:25,565:INFO:Initializing predict_model()
+2020-11-04 11:18:25,565:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-04 11:18:25,566:INFO:Checking exceptions
+2020-11-04 11:18:25,566:INFO:Preloading libraries
+2020-11-04 11:18:29,787:INFO:Initializing load_model()
+2020-11-04 11:18:29,788:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:19:07,017:INFO:Initializing predict_model()
+2020-11-04 11:19:07,018:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-04 11:19:07,018:INFO:Checking exceptions
+2020-11-04 11:19:07,018:INFO:Preloading libraries
+2020-11-04 11:19:14,153:INFO:Initializing load_model()
+2020-11-04 11:19:14,153:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:19:14,401:INFO:Initializing predict_model()
+2020-11-04 11:19:14,401:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-04 11:19:14,401:INFO:Checking exceptions
+2020-11-04 11:19:14,401:INFO:Preloading libraries
+2020-11-04 11:19:22,796:INFO:Initializing load_model()
+2020-11-04 11:19:22,796:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:20:38,169:INFO:Initializing load_model()
+2020-11-04 11:20:38,169:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:21:16,122:INFO:Initializing load_model()
+2020-11-04 11:21:16,122:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:21:22,246:INFO:Initializing load_model()
+2020-11-04 11:21:22,246:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:21:25,179:INFO:Initializing load_model()
+2020-11-04 11:21:25,179:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:21:33,427:INFO:Initializing predict_model()
+2020-11-04 11:21:33,427:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-04 11:21:33,427:INFO:Checking exceptions
+2020-11-04 11:21:33,427:INFO:Preloading libraries
+2020-11-04 11:21:46,200:INFO:Initializing load_model()
+2020-11-04 11:21:46,200:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:40:50,517:INFO:Initializing load_model()
+2020-11-04 11:40:50,518:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:40:54,052:INFO:Initializing load_model()
+2020-11-04 11:40:54,052:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:41:16,574:INFO:Initializing predict_model()
+2020-11-04 11:41:16,574:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-04 11:41:16,574:INFO:Checking exceptions
+2020-11-04 11:41:16,574:INFO:Preloading libraries
+2020-11-04 11:41:53,230:INFO:Initializing predict_model()
+2020-11-04 11:41:53,230:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-04 11:41:53,230:INFO:Checking exceptions
+2020-11-04 11:41:53,230:INFO:Preloading libraries
+2020-11-04 11:43:13,143:INFO:Initializing load_model()
+2020-11-04 11:43:13,143:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:44:35,672:INFO:Initializing load_model()
+2020-11-04 11:44:35,673:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:44:38,929:INFO:Initializing load_model()
+2020-11-04 11:44:38,929:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:44:44,023:INFO:Initializing predict_model()
+2020-11-04 11:44:44,023:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-04 11:44:44,023:INFO:Checking exceptions
+2020-11-04 11:44:44,023:INFO:Preloading libraries
+2020-11-04 11:45:39,063:INFO:Initializing load_model()
+2020-11-04 11:45:39,064:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:45:42,179:INFO:Initializing load_model()
+2020-11-04 11:45:42,179:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-04 11:45:52,704:INFO:Initializing predict_model()
+2020-11-04 11:45:52,704:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-04 11:45:52,704:INFO:Checking exceptions
+2020-11-04 11:45:52,704:INFO:Preloading libraries
+2020-11-04 11:46:20,713:INFO:Initializing load_model()
+2020-11-04 11:46:20,713:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:15:38,768:INFO:Initializing load_model()
+2020-11-05 09:15:38,768:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:15:43,093:INFO:Initializing load_model()
+2020-11-05 09:15:43,093:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:16:59,881:INFO:Initializing predict_model()
+2020-11-05 09:16:59,881:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:16:59,881:INFO:Checking exceptions
+2020-11-05 09:16:59,881:INFO:Preloading libraries
+2020-11-05 09:17:05,479:INFO:Initializing load_model()
+2020-11-05 09:17:05,479:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:17:57,599:INFO:Initializing predict_model()
+2020-11-05 09:17:57,600:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:17:57,600:INFO:Checking exceptions
+2020-11-05 09:17:57,600:INFO:Preloading libraries
+2020-11-05 09:18:06,997:INFO:Initializing load_model()
+2020-11-05 09:18:06,997:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:19:55,411:INFO:Initializing load_model()
+2020-11-05 09:19:55,412:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:20:04,144:INFO:Initializing load_model()
+2020-11-05 09:20:04,144:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:20:11,799:INFO:Initializing load_model()
+2020-11-05 09:20:11,799:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:20:25,179:INFO:Initializing predict_model()
+2020-11-05 09:20:25,180:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:20:25,180:INFO:Checking exceptions
+2020-11-05 09:20:25,180:INFO:Preloading libraries
+2020-11-05 09:20:30,677:INFO:Initializing load_model()
+2020-11-05 09:20:30,677:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:20:46,244:INFO:Initializing load_model()
+2020-11-05 09:20:46,244:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:20:50,374:INFO:Initializing load_model()
+2020-11-05 09:20:50,374:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:20:50,635:INFO:Initializing predict_model()
+2020-11-05 09:20:50,635:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:20:50,635:INFO:Checking exceptions
+2020-11-05 09:20:50,635:INFO:Preloading libraries
+2020-11-05 09:22:24,659:INFO:Initializing load_model()
+2020-11-05 09:22:24,659:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:22:29,291:INFO:Initializing load_model()
+2020-11-05 09:22:29,292:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:22:29,680:INFO:Initializing predict_model()
+2020-11-05 09:22:29,680:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:22:29,680:INFO:Checking exceptions
+2020-11-05 09:22:29,680:INFO:Preloading libraries
+2020-11-05 09:23:12,859:INFO:Initializing load_model()
+2020-11-05 09:23:12,859:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:23:33,128:INFO:Initializing load_model()
+2020-11-05 09:23:33,128:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:23:33,451:INFO:Initializing predict_model()
+2020-11-05 09:23:33,451:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:23:33,451:INFO:Checking exceptions
+2020-11-05 09:23:33,451:INFO:Preloading libraries
+2020-11-05 09:25:01,589:INFO:Initializing load_model()
+2020-11-05 09:25:01,590:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:26:32,241:INFO:Initializing load_model()
+2020-11-05 09:26:32,241:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:26:36,540:INFO:Initializing load_model()
+2020-11-05 09:26:36,540:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:26:59,903:INFO:Initializing predict_model()
+2020-11-05 09:26:59,903:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:26:59,904:INFO:Checking exceptions
+2020-11-05 09:26:59,904:INFO:Preloading libraries
+2020-11-05 09:27:07,073:INFO:Initializing load_model()
+2020-11-05 09:27:07,073:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:27:16,093:INFO:Initializing load_model()
+2020-11-05 09:27:16,093:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:27:30,248:INFO:Initializing predict_model()
+2020-11-05 09:27:30,249:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:27:30,249:INFO:Checking exceptions
+2020-11-05 09:27:30,249:INFO:Preloading libraries
+2020-11-05 09:27:38,468:INFO:Initializing load_model()
+2020-11-05 09:27:38,469:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:27:59,196:INFO:Initializing load_model()
+2020-11-05 09:27:59,196:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:28:21,720:INFO:Initializing load_model()
+2020-11-05 09:28:21,720:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:28:34,198:INFO:Initializing load_model()
+2020-11-05 09:28:34,198:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:29:14,074:INFO:Initializing predict_model()
+2020-11-05 09:29:14,075:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:29:14,075:INFO:Checking exceptions
+2020-11-05 09:29:14,075:INFO:Preloading libraries
+2020-11-05 09:30:08,054:INFO:Initializing load_model()
+2020-11-05 09:30:08,054:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:30:11,775:INFO:Initializing predict_model()
+2020-11-05 09:30:11,775:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:30:11,775:INFO:Checking exceptions
+2020-11-05 09:30:11,775:INFO:Preloading libraries
+2020-11-05 09:30:57,388:INFO:Initializing load_model()
+2020-11-05 09:30:57,388:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:31:19,974:INFO:Initializing load_model()
+2020-11-05 09:31:19,974:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:31:27,422:INFO:Initializing load_model()
+2020-11-05 09:31:27,423:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:31:45,258:INFO:Initializing load_model()
+2020-11-05 09:31:45,258:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:31:52,563:INFO:Initializing load_model()
+2020-11-05 09:31:52,563:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:31:52,802:INFO:Initializing predict_model()
+2020-11-05 09:31:52,802:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:31:52,802:INFO:Checking exceptions
+2020-11-05 09:31:52,802:INFO:Preloading libraries
+2020-11-05 09:33:03,713:INFO:Initializing load_model()
+2020-11-05 09:33:03,713:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:33:09,822:INFO:Initializing load_model()
+2020-11-05 09:33:09,822:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:33:11,376:INFO:Initializing predict_model()
+2020-11-05 09:33:11,376:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:33:11,376:INFO:Checking exceptions
+2020-11-05 09:33:11,376:INFO:Preloading libraries
+2020-11-05 09:34:33,827:INFO:Initializing load_model()
+2020-11-05 09:34:33,827:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:34:35,825:INFO:Initializing predict_model()
+2020-11-05 09:34:35,825:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:34:35,825:INFO:Checking exceptions
+2020-11-05 09:34:35,825:INFO:Preloading libraries
+2020-11-05 09:35:06,397:INFO:Initializing load_model()
+2020-11-05 09:35:06,397:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:35:06,800:INFO:Initializing predict_model()
+2020-11-05 09:35:06,800:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:35:06,800:INFO:Checking exceptions
+2020-11-05 09:35:06,800:INFO:Preloading libraries
+2020-11-05 09:35:56,641:INFO:Initializing load_model()
+2020-11-05 09:35:56,641:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:35:58,465:INFO:Initializing predict_model()
+2020-11-05 09:35:58,466:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:35:58,466:INFO:Checking exceptions
+2020-11-05 09:35:58,466:INFO:Preloading libraries
+2020-11-05 09:36:18,556:INFO:Initializing predict_model()
+2020-11-05 09:36:18,556:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:36:18,556:INFO:Checking exceptions
+2020-11-05 09:36:18,556:INFO:Preloading libraries
+2020-11-05 09:36:55,090:INFO:Initializing load_model()
+2020-11-05 09:36:55,090:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:36:55,368:INFO:Initializing predict_model()
+2020-11-05 09:36:55,368:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:36:55,369:INFO:Checking exceptions
+2020-11-05 09:36:55,369:INFO:Preloading libraries
+2020-11-05 09:37:23,485:INFO:Initializing load_model()
+2020-11-05 09:37:23,485:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:37:29,059:INFO:Initializing predict_model()
+2020-11-05 09:37:29,059:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:37:29,059:INFO:Checking exceptions
+2020-11-05 09:37:29,059:INFO:Preloading libraries
+2020-11-05 09:37:50,148:INFO:Initializing load_model()
+2020-11-05 09:37:50,148:INFO:load_model(model_name=et_model, platform=None, authentication=None, verbose=True)
+2020-11-05 09:37:52,718:INFO:Initializing predict_model()
+2020-11-05 09:37:52,718:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='is_used')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    tar...
+                ('fix_perfect', Remove_100(target='is_used')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Advanced_Feature_Selection_Classic(random_state=1,
+                                                    subclass='binary',
+                                                    target='is_used',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=1)]]), probability_threshold=None, encoded_labels=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2020-11-05 09:37:52,718:INFO:Checking exceptions
+2020-11-05 09:37:52,718:INFO:Preloading libraries

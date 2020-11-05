@@ -3,3 +3,4 @@ numpy
 Flask
 pycaret
 sklearn
+flask_jsonpify
