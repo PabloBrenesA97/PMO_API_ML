@@ -2,5 +2,6 @@ pandas
 numpy
 Flask
 pycaret
+waitress
 sklearn
 flask_jsonpify

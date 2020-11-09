@@ -8,12 +8,20 @@ import numpy as np
 from pycaret.classification import load_model, predict_model
 from sklearn.feature_extraction.text import TfidfVectorizer
 from flask_jsonpify import jsonpify
+import nltk
+from nltk.corpus import stopwords
+nltk.download('stopwords')
+
 # Flask app
 app = Flask(__name__)
 # Charge model
 et_model = load_model('et_model') 
 # Global dataset
 df = pd.read_csv('final_df.csv')
+# Add stop words
+stop_words_eng = set(stopwords.words('english')) 
+stop_words_sp = set(stopwords.words('spanish')) 
+final_stop_words = set(list(stop_words_eng) + list(stop_words_sp))
 
 @app.route('/')
 def welcome():
@@ -83,7 +91,10 @@ def transform_data(name, hours):
   ## Add new line 
   new_row = {'name': name, 'hours': hours}
   df_proc = df.append(new_row, ignore_index=True)
-  
+
+  ## Add df into origin
+  df_proc['length'] = df_proc.name.str.len()
+
   # Embedding name
   vectorizer_name = TfidfVectorizer()
   data_name = vectorizer_name.fit_transform(df_proc.name)
@@ -93,6 +104,7 @@ def transform_data(name, hours):
 
   # Adding hours
   result_df['hours'] = df_proc.tail(1).hours
+  result_df['length'] = df_proc.tail(1).length
 
   # Reset index
   result_df = result_df.reset_index()
@@ -104,11 +116,13 @@ def transform_data_batch(input_df):
     Method to build a new input_df with NLP table included into dataframe.
   """
   input_rows = input_df.shape[0]
+  input_df['length'] = input_df.name.str.len()
+
   ## Add df into origin
   df_proc = df.append(input_df, ignore_index=True)
   
   # Embedding name
-  vectorizer_name = TfidfVectorizer()
+  vectorizer_name = TfidfVectorizer(stop_words=final_stop_words)
   data_name = vectorizer_name.fit_transform(df_proc.name)
   tfidf_tokens_name = vectorizer_name.get_feature_names()
   result_df = pd.DataFrame(data = data_name.toarray(),columns = tfidf_tokens_name)
@@ -116,11 +130,12 @@ def transform_data_batch(input_df):
 
   # Adding hours
   result_df['hours'] = df_proc.tail(input_rows).hours
+  result_df['length'] = df_proc.tail(input_rows).length
 
   # Reset index
   result_df = result_df.reset_index()
 
   return result_df
 
-if __name__ == '__main__':
-  app.run(debug=True, host='0.0.0.0')
+# if __name__ == '__main__':
+#   app.run(debug=True, host='0.0.0.0')
